@@ -2,7 +2,7 @@
 	"name": "copy-gather-paste",
 	"displayName": "Copy-Gather-Paste",
 	"description": "The VS Code plugin permits several text copy/cut operations and paste the gathered buffer at once",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"engines": {
 		"vscode": "^1.36.0"
 	},
