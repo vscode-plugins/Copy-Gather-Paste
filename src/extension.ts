@@ -45,7 +45,7 @@ async function cut_gather(textEditor: vscode.TextEditor,
     let selection    = textEditor.selection;
     if (selection.start.compareTo(selection.end) === 0) {
         selectedText = textEditor.document.lineAt(selection.start).text;
-        selection = new vscode.Selection(selection.start.line, 0, selection.start.line, selectedText.length - 1);
+        selection = new vscode.Selection(selection.start.line, 0, selection.start.line, selectedText.length);
     }
     else {
         selectedText = textEditor.document.getText(selection);

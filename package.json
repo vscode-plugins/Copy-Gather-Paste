@@ -1,14 +1,31 @@
 {
 	"name": "copy-gather-paste",
 	"displayName": "Copy-Gather-Paste",
-	"description": "The extension permits to gather several text selections and paste them together",
-	"version": "0.0.1",
+	"description": "The VS Code plugin permits several text copy/cut operations and paste the gathered buffer at once",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.36.0"
 	},
+    "icon": "CopyGatherPasteIcon.gif",
 	"categories": [
-		"Other"
+        "Formatters",
+        "Other"
 	],
+	"keywords": [
+        "Edit",
+        "Copy",
+        "Paste",
+        "Cut",
+        "Buffer"
+    ],
+    "publisher": "SergeLamikhov",
+    "license": "See license in LICENSE.txt",
+    "bugs": {
+        "url": "https://github.com/vscode-plugins/Copy-Gather-Paste/issues"
+    },
+    "repository": {
+        "url": "https://github.com/vscode-plugins/Copy-Gather-Paste"
+    },
 	"activationEvents": [
 		"onCommand:copy-gather-paste.copy-gather",
 		"onCommand:copy-gather-paste.cut-gather",
@@ -30,7 +47,7 @@
 				"title": "Paste Gathered Lines of Text"
 			}
 		],
-	    "keybindings": [
+		"keybindings": [
 			{
 				"command": "copy-gather-paste.copy-gather",
 				"key": "Shift+Alt+c",
@@ -63,7 +80,6 @@
 		"glob": "^7.1.4",
 		"mocha": "^6.1.4",
 		"typescript": "^3.3.1",
-		"tslint": "^5.12.1",
-		"vscode-test": "^1.0.2"
+		"tslint": "^5.12.1"
 	}
 }
