@@ -1,4 +1,4 @@
-# 1. Copy 2. Gather 3. Paste 
+# 1. Copy 2. Gather 3. Paste
 
 [![vsm-version](https://img.shields.io/visual-studio-marketplace/v/SergeLamikhov.copy-gather-paste?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=SergeLamikhov.copy-gather-paste)
 [![vsm-downloads](https://img.shields.io/visual-studio-marketplace/d/SergeLamikhov.copy-gather-paste?style=flat-square&label=downloads&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=SergeLamikhov.copy-gather-paste)
@@ -13,6 +13,7 @@ The VS Code plugin permits several text copy/cut operations and pasting the gath
 ![alt text](CopyGatherPaste.gif)
 
 ### Keybindings
+
 - Copy and Gather: <span style="color:magenta">__Shift-Alt-C__</span>
 - Cut and Gather: <span style="color:magenta">__Shift-Alt-X__</span>
 - Paste the buffer: <span style="color:magenta">__Shift-Alt-V__</span>
@@ -21,4 +22,4 @@ The VS Code plugin permits several text copy/cut operations and pasting the gath
 
 Animated GIF added
 
-**Enjoy!** 
+**Enjoy!**
